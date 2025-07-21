@@ -47,22 +47,22 @@
     //     }
         
     // } 
-const JsFile2 = {
-    name : "mano",
-    age: 18,
-    location: "rawalpindi",
-    greeting: function( ){
-        //console.log(`hello, world ${this.name}`)
-    }
+// const JsFile2 = {
+//     name : "mano",
+//     age: 18,
+//     location: "rawalpindi",
+//     greeting: function( ){
+//         //console.log(`hello, world ${this.name}`)
+//     }
     
-} 
-//console.log(JsFile.greeting(), JsFile2.greeting())
+// } 
+// //console.log(JsFile.greeting(), JsFile2.greeting())
 
-JsFile2.name = "urba"
-console.log(JsFile2.name)
-Object.freeze(JsFile2)
-JsFile2.age = 20
-greeting = function(){
-    console.log(`${this.name}`)
-}
-console.log(greeting())
+// JsFile2.name = "urba"
+// console.log(JsFile2.name)
+// Object.freeze(JsFile2)
+// JsFile2.age = 20
+// greeting = function(){
+//     console.log(`${this.name}`)
+// }
+// console.log(greeting())
