@@ -8,8 +8,9 @@
      <!-- <script src="07_datesinjs.js"></script> -->
      <!-- <script src="02_Arrays2_inJavascript.js"></script> -->
      <!-- <script src="02_Array2_inJavascript.js"></script> -->
-     <script src="10_objects2.js"></script>
-     <script src="11_objects3.js"></script>
+     <!-- <script src="10_objects2.js"></script> -->
+     <!-- <script src="11_objects3.js"></script> -->
+     <script src="12_function.js"></script>
      <!-- <script src="09_objects.js"></script>
      <script src="10_objects2.js"></script> -->
     <!-- <script src="03_conversionoperation.js"></script> -->
@@ -24,6 +25,23 @@
         <li onclick="paginate(2)">2</li>
         <li onclick="paginate(3)">3</li>
     </ul>
+<button id="submitbtn"></button>
+<select name="" id="">
+    <option value="add">Addition</option>
+    <option value="minus">Subtraction</option>
+    <option value="multiply">Multiply</option>
+    <option value="divide">Divide</option>
+</select>
+<input type="integer">
+<input type="integer">
+<button id="submitbtn">calculate</button>
+<span>Result: </span>
+<script>   
+    function addition(a, b) {
+        return a + b;
+    }
 
+    document.getElementById('submitbtn').innerHTML = addition(1,4);
+</script>
 </body>
 </html>

@@ -98,15 +98,14 @@ const obj= {
     email: 'hashir@gmail.com',
 };
 
-const {userFirstName: name, age, number, email} = obj;
-fetch("https://api.github.com/users/hiteshchoudhary")
-  .then(response => response.json())
-  .then(data => {
-    console.log(data);
-    // You can access specific fields like:
-    const {login, followers, bio} = data;
-        console.log(login, followers, bio);
-  })
-  .catch(error => {
-    console.error("Error fetching data:", error);
-  });
+const {userFirstName:name, age, number, email} = obj
+
+    console.log(age, name, number,)
+
+
+//const {userFirstName: name, age, number, email} = obj;
+//console.log(name, age, number, email)
+
+
+
+
