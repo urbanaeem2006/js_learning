@@ -22,7 +22,7 @@ console.log(myNewDate.getTime())
 console.log(Math.floor(Date.now()/1000))  
 // this values is sec
 
-let myCreatedDate = new Date ()
+let myCreatedDate = new Date()
 console.log(myCreatedDate)
 console.log(myCreatedDate.getDate())
 console.log(myCreatedDate.getDay())
@@ -30,3 +30,4 @@ console.log(myCreatedDate.getDay())
 myNewDate.toLocaleString ('default',{
     weekday : "long"
 })
+
