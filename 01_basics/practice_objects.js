@@ -15,3 +15,5 @@ JsUser.greeting = function(){
     //  same object reference to use this.
 }
 
+
+
