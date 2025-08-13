@@ -26,4 +26,29 @@ twoNumber(1, 2 )
 function loginUserMessage(username = "sam"){
     return `${username} is loggin` 
 }
-console.log(loginUserMessage("urba"))
+// console.log(loginUserMessage("urba"))
+
+function calculateCardPrice(...num1){
+    return (num1)
+}
+console.log(calculateCardPrice(200, 300, 400, 500))
+
+const user = {
+    username: "urba",
+    price: "200"
+}
+
+function handleObject (anyobject){
+    console.log(`username is ${anyobject.username} and price is${anyobject.price}`)
+
+}
+handleObject(user)
+
+const newArray = [200, 300, 400, 600]
+
+function returnSecondValue(anyArray){
+    return anyArray[2]
+}
+// console.log(returnSecondValue(newArray))   
+// two tyes of function in define arrays or objects
+console.log(returnSecondValue([200, 300, 400, 600]))
