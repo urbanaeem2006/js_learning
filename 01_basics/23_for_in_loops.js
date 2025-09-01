@@ -1,18 +1,20 @@
-const myObject = {
-    js: "javascript",
-    cpp: "c++",
-    rb: "ruby",
-    swift: "swift by apple "
-}
-for (const key in myObject) {
-//    console.log(`${key} for shortcut of ${myObject[key]}`)
+ const myObject = {
+//     js: "javascript",
+//     cpp: "c++",
+//     rb: "ruby",
+//     swift: "swift by apple "
+ }
+ for (const key in myObject) {
+   console.log(`${key} for shortcut of ${myObject[key]}`)
 }
 
-const programming = ["js", "rb", "c++", "py"]
+// const programming = ["js", "rb", "c++", "py"]
 
-for (const key in programming) {
-    // console.log(programming[key])
-}
+// for (const key in programming) {
+//     // console.log(programming[key])
+// }
+
+
 
 // const map = new Map()
 // map.set('pk', "Pakistan")

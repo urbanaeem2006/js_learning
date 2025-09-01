@@ -4,29 +4,29 @@
 
 // [{}, {}, {},]
 
-const arr = [1, 2, 3, 4, 5]
+// const arr = [1, 2, 3, 4, 5]
 
-for (const num of arr) {
-    // console.log(num)
-}
+// for (const num of arr) {
+//     // console.log(num)
+// }
 
-const greeting = "hello world!"
+const greeting = "helloworld!"
 
-for (const string of greeting) {
-    // console.log(string)
-}
+// for (const string of greeting) {
+//     // console.log(string)
+// }
 
-const map = new Map()
-map.set('PK', "Pakistan")
-map.set('USA', "united states of America")
-map.set('FR', "France")
+// const map = new Map()
+// map.set('PK', "Pakistan")
+// map.set('USA', "united states of America")
+// map.set('FR', "France")
 
 // console.log(map)
 
-for (const [key, value] of map) {
-//  keys ande value seperate this syntax
-    // console.log(key,":-", value)
-}
+// for (const [key, value] of map) {
+// //  keys ande value seperate this syntax
+//     // console.log(key,":-", value)
+// }
 
 // const object = {
 //     "name": "urba",
@@ -44,3 +44,16 @@ const myObject = {
 // for (const [key, value] of myObject) {
 //     console.log(key, ":-", value)
 // }
+
+const arr = [1, 2, 3, 4, 5,]
+
+for (const number of arr) {
+    console.log(number)
+}
+
+const string = "mano billi"
+
+for (const value of string) {
+    
+    console.log(value)
+}
