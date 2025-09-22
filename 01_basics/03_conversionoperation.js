@@ -90,22 +90,23 @@ num1 = num2 = num3 = 2+2
 //let a = 6;
 //let b = a++;
 //console.log(a);
-//console.log(b);
+////console.log(b);
 
 //let a = 7;
 //let b = ++a;
-////console.log(a)
+//console.log(a)
 //console.log(b)
 
 
 //let a = 8;
 //let b = a++;
-////console.log(a)
+//console.log(a)
 //console.log(b)
 
-//let a = 123;
-//let b = a++;
-//console.log(a)
+let a = 123;
+let b = a++;
+console.log(a)
+console.log(b)
 
 let arr = [
    {name: 'Hashir', last_name: 'Masood', age: 28},

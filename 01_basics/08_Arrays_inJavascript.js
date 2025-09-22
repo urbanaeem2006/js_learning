@@ -108,5 +108,7 @@ const name = "naeem";
 const age = 18;
 const year = 2025;
 
-console.log(Array.from(name))
-console.log([name, age, year])
+//console.log(Array.from(name))
+//console.log([name, age, year])
+
+
