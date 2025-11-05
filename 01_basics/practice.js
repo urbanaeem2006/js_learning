@@ -148,8 +148,6 @@ console.log(myArr)
 console.log(newArray)
 
 
-// ======== slice and splice ==========
-
 const marvel_heros = ["mavia", "hurraira", "mano"]
 const dc = ["superman", "spiderman", "iron"]
 
@@ -176,25 +174,4 @@ const dc = ["superman", "spiderman", "iron"]
 
 
 // ======================== Objects ==========================
-
-// singleton
-//object create
-// object literals
-
-const mysym = Symbol("key1")
-
-const jsUser = {
-    name: "urba",
-    age: "18",
-    [mysym]: "mykey1",
-    location: "rawalpindi",
-    email: "urbanaeem@gmail.com",
-    isLoggedIn: "fales"
-}
-console.log(jsUser.email)
-console.log(jsUser["email"])
-console.log(jsUser[mySym])
-
-jsUser.email = "chatgpt.com"
-Object.freeze(jsUser)
 
