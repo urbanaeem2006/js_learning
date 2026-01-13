@@ -1,4 +1,4 @@
- .button{
+ /* .button{
     background-color: #fff;
     padding: 40px 70px;
     
@@ -43,4 +43,29 @@
     margin-top: 100px;
     
     
+} */
+
+/* ====================== keyboard project css =================== */
+
+/* .project{
+    background: #1c1c1c;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
 }
+.color{
+    color:  aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+table,
+th,
+td {
+    border: 1px solid #fff;  
+    padding: 5px;
+    /* border: 1px solid #373737; */ 
+    
+/* } */
