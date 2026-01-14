@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Events</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing Images</h2>
+    <div>
+<ul id="images">
+        <li><img width="200px" id="photoshop"src="c:\Users\lenovo\Downloads\pexels-ramon-clemente-1097299-34314485.jpg"
+             alt="photoshop"></li>
+
+            <li><img width="200px" id="river" src="c:\Users\lenovo\Downloads\pexels-simon73-29749447.jpg"
+                 alt=""></li>
+
+                 <li><img width="200px" id="japan" src="c:\Users\lenovo\Downloads\pexels-horacio-lander-1239977167-35109032.jpg" 
+                    alt=""></li>
+
+                    <li><img width="200px" id="owl" src="c:\Users\lenovo\Downloads\pexels-ozturkgm-2157805050-35161818.jpg" alt=""></li>
+
+                    <li> <a style="color: aliceblue;" href="https://google.com"id="google">Google</a></li>
+    </ul>
+    </div>
+    
+</body>
+<script>
+    // document.getElementById('owl').onclick = function(){
+    //     alert('owl clicked')
+    // }
+
+    // AttachEvent
+   // jQuery - on
+
+    // types, timestamp, defaultprevented
+    // Target, toElement, srcElement, currentTarget
+    // clientX, clientY, screenX, screenY
+    // Altkey, ctrlkey, shiftkey, keyCode
+   
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log('clicked inside the url')
+    // }, false)
+
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log('owl clicked ')
+    //     e.stopPropagation()
+    // }, false)
+
+    // document.getElementById('google').addEventListener('click', function(e){
+    //     e.preventDefault()
+    //     e.stopPropagation()
+    //     console.log('google clicked')
+
+    // }, false)
+
+    // document.querySelector('#images').addEventListener('click', function(e){
+    //     console.log(e.target.tagName)
+        
+    //     if (e.target.tagName === 'IMG') {
+    //         console.log(e.target.id)
+    //         let removeIt = e.target.parentNode
+    //     removeIt.remove()
+
+    //     }
+        
+    // //  two syntax for remove
+
+    //    // removeIt.parentNode.removeChild(removeIt)
+    // }, false)
+
+
+    document.getElementById('images').addEventListener('click', function(e){
+        if (e.target.tagName === 'IMG') {
+             let removeIt = e.target.parentNode
+             console.log(e.target.id)
+       removeIt.remove()
+
+        }
+       
+    })
+</script>
+</html>

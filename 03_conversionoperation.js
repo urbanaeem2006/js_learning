@@ -21,17 +21,12 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 
 
 let someNumber = 33
-
-let stringNumber = String (someNumber)
 //console.log(stringNumber)
 //console.log(typeof stringNumber)
 
-
-let someNumber = 33
-
 let stringNumber = String(someNumber)
-console.log(stringNumber)
-console.log(typeof stringNumber)
+// console.log(stringNumber)
+// console.log(typeof stringNumber)
 
 
 
@@ -39,7 +34,7 @@ console.log(typeof stringNumber)
 
 let value = 3
 let negValue = -3
-console.log(negValue)
+// console.log(negValue)
 
 //console.log(2+2)
 //console.log(2-2)
@@ -60,16 +55,16 @@ let str3 = str1 + str2
 //console.log("1" + 2 + 2)
 //console.log("1" + 2 + "2")
 
-console.log(+true)
-console.log(+"")
+// console.log(+true)
+// console.log(+"")
 
 let num1 , num2, num3
 
 num1 = num2 = num3 = 2+2
 
-let gameCounter = 100
-gameCounter++;
-console.log(gameCounter)
+// let gameCounter = 100
+// gameCounter++;
+// console.log(gameCounter)
 
 //gamecounter++ postfix increment
 //++gamecounter   prefix increment that same or --
@@ -83,4 +78,40 @@ console.log(gameCounter)
 //https://tc39.es/ecma262/multipage/abstract-operation.
 //html#sec-type-conversion
 
+//let a = 5;
+ //let b = ++a;
+ //console.log(a);
+ //console.log(b);
 
+//let a = 5;
+//a += 2;
+//console.log(a)
+
+//let a = 6;
+//let b = a++;
+//console.log(a);
+////console.log(b);
+
+//let a = 7;
+//let b = ++a;
+//console.log(a)
+//console.log(b)
+
+
+//let a = 8;
+//let b = a++;
+//console.log(a)
+//console.log(b)
+
+let a = 123;
+let b = a++;
+console.log(a)
+console.log(b)
+
+let arr = [
+   {name: 'Hashir', last_name: 'Masood', age: 28},
+   {name: 'Urba', last_name: 'Naeem', age: 18},
+   {name: 'Huraira', last_name: 'Naeem', age: 19},
+];
+
+console.log(arr);

@@ -31,3 +31,28 @@ const heros = ["urba", "hurriara", "mavia"];
 const myfunction = function(){
         console.log("hello world")
 }
+
+
+///// ========================================
+
+// Stack(primitive), Heap(Non-primitive)
+
+let myYoutubename = "urbanaeem"
+
+let anothername = myYoutubename
+anothername = chaiourcode
+
+console.log(myYoutubename)
+console.log(anothername)
+
+
+let userOne = {
+  email: "urbanaeem@google.com"
+
+}
+let userTwo = userOne
+
+userTwo.email = "urba.com"
+
+console.log(userOne.email)
+console.log(usertwo.email)

@@ -1,0 +1,71 @@
+ /* .button{
+    background-color: #fff;
+    padding: 40px 70px;
+    
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid #212121; 
+     margin: 10px 10px; 
+     
+
+} 
+
+.button1{
+    background-color: grey;
+}
+.button2{
+    background-color: #fff;
+}
+.button3{
+    background-color: blue;
+}
+.button4{
+    background-color: yellow;
+}
+    h1{
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bold;
+        text-decoration-line: underline;
+        padding: 40px 40px;
+        
+
+    }
+    h2{
+        text-align: center;
+        font-size: xx-large;
+        text-decoration: none;
+        text-decoration-line: underline;
+        padding: 40px 40px;
+    }
+.canvas{
+    text-align: center;
+    margin-top: 100px;
+    
+    
+} */
+
+/* ====================== keyboard project css =================== */
+
+/* .project{
+    background: #1c1c1c;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.color{
+    color:  aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+table,
+th,
+td {
+    border: 1px solid #fff;  
+    padding: 5px;
+    /* border: 1px solid #373737; */ 
+    
+/* } */
