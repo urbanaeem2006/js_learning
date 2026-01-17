@@ -1,0 +1,93 @@
+.hading{
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 10px;
+    text-decoration: underline;
+}
+.paragraph{
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: black;
+    font-size: xx-large;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px;
+    text-decoration: underline;
+    
+}
+.forms{
+    /* width: 200px;
+    width: 10px;
+
+    border-radius: 2px;
+    background-color: #fff; */
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;
+    height: 100px;
+}
+.forms input{
+    margin: 20px;
+    padding: 6px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-color: white;
+    
+}
+/* .form1{
+    text-align: center;
+    justify-content: center;
+} */
+/* #start{
+    margin: 10px;
+    padding: 7px;
+    background-color: green;
+    border-color: green;
+    color: #fff;
+ }
+#stop{
+        margin: 10px;
+      padding: 7px;
+    background-color: red;
+    border-color: red;
+    color: #fff;
+ }
+ form{
+    text-align: center;
+    justify-content: center;
+    
+ } */
+.form{
+    text-align: center;
+
+}
+.text{
+    margin: 30px;
+    padding: 20px;
+    border-color: #fff;
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 800;
+    
+}
+.button{
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    background-color: red;
+    border-color: red;
+}
+.time{
+    text-align: center;
+    
+    margin: 10px;
+    padding: 20px;
+    text-decoration: underline;
+    font-size: xx-large;
+    font-weight: bold;
+    color: red;
+}
